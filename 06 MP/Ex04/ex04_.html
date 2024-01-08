@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #test {
+            margin: 0 auto;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            margin: 0 auto;
+            padding-top: 10px;
+            width: 1000px;
+            height: 720px;
+            /*border:1px solid black;*/
+        }
+        #header {
+            /*margin: 10px;*/
+            height: 70px;
+        }
+        #main {
+            /*border:1px solid black;*/
+            padding-top: 20px;
+            height: 600px;
+        }
+        #footer {
+            /*border:1px solid black;*/
+            height: 150px;
+
+        }
+        span {
+            float: right;
+        }
+        #d1,#d2,#d3,#d4 {
+            float: left;
+            height: 80px        }
+        #d1 {
+            width: 15%;
+        }
+        #d1 > img{
+            float: left;
+        }
+        #d2 {
+            width: 20%;
+        }
+        #d3 {
+            width: 65%;
+            text-align: right;
+            font-size: 10px;
+        }
+        hr{
+            clear: left;
+        }
+        #menu {
+            height: 50px;
+        }
+        #menu div {
+            float: left;
+            width:20%;
+        }
+        #menu div img{
+
+        }
+        #banner div {
+            float: left;
+            width: 33%;
+            height: 130px;
+            padding: 0;
+        }
+        #banner div img {
+            width: 100%;
+            height: 100%;
+        }
+        #banner div#center {
+            width: 34%;
+        }
+        #content div {
+            padding-top: 20px;
+            float: left;
+            /*width: 33%;*/
+            height: 140px;
+            padding-bottom: 20px;
+        }
+        #content1 {
+            width: 35%;
+        }
+        #content1 div {
+            width: 50%;
+        }
+        .more {
+            text-align: right;
+        }
+        .more img {
+            padding-right: 30px;
+         }
+        #content2 {
+            width: 34%;
+        }
+        #content2 div div{
+            padding-top: 0;
+            height: 28px;
+        }
+        #content2 div div p{
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        #content2 div {
+            width: 50%;
+        }
+        #content3 {
+            padding-top: 20px;
+            width: 31%;
+        }
+        #content3 > img {
+            padding-top: 10px;
+        }
+        #li {
+            width: 100%;
+            height: 130px;
+        }
+        #li div {
+            width: 10%;
+            float: left;
+            margin-left: 5%;
+            padding-top: 10px;
+        }
+        #li > div {
+            margin-left: 6%;
+        }
+        #li div >  p {
+            color: #42c09d;
+        }
+        li {
+            color: #42c09d;
+        }
+        li > p {
+            color: black;
+        }
+        #hr {
+            height: 3px;
+            background-color: #52d5b1;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div id="d1">
+            <img src="img/logo.gif" alt="">
+        </div>
+        <div id="d2">
+            <img src="img/moto.gif" alt="">
+        </div>
+        <div id="d3">
+            <div>
+                로그인 | 회원 가입 | 사이트맵 | 회사소개
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div id="main">
+        <div id="menu">
+            <div>
+                <img src="img/menu01.gif" alt="">
+            </div>
+            <div>
+                <img src="img/menu02.gif" alt="">
+            </div>
+            <div>
+                <img src="img/menu03.gif" alt="">
+            </div>
+            <div>
+                <img src="img/menu04.gif" alt="">
+            </div>
+            <div id="last">
+                <img src="img/menu05.gif" alt="">
+            </div>
+        </div>
+        <div id="banner">
+            <div>
+                <img src="img/banner01.gif" alt="">
+            </div>
+            <div id="center">
+                <img src="img/banner02.gif" alt="">
+            </div>
+            <div>
+                <img src="img/banner03.gif" alt="">
+            </div>
+        </div>
+        <div id="content">
+            <div id="content1">
+                <div>
+                    <img src="img/customer.gif" alt="">
+                </div>
+                <div class="more">
+                    <img src="img/more.gif" alt="">
+                </div>
+            </div>
+            <div id="content2">
+                <div>
+                    <div>
+                        <img src="img/notice.gif" alt="">
+                        <p>aaaaa</p>
+                        <p>aaaaa</p>
+                        <p>aaaaa</p>
+                    </div>
+                </div>
+                <div class="more">
+                    <img src="img/more.gif" alt="">
+                </div>
+            </div>
+            <div id="content3">
+                <img src="img/faq.gif" alt="">
+                <img src="img/cal.gif" alt="">
+            </div>
+            <hr>
+        </div>
+        <div id="li">
+            <div>
+                <p>asdsadsa</p>
+                <ul>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                </ul>
+            </div>
+            <div>
+                <p>asdsadsa</p>
+                <ul>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                </ul>
+            </div>
+            <div>
+                <p>asdsadsa</p>
+                <ul>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                </ul>
+            </div>
+            <div>
+                <p>asdsadsa</p>
+                <ul>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                </ul>
+            </div>
+            <div>
+                <p>asdsadsa</p>
+                <ul>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                </ul>
+            </div>
+            <div>
+                <p>asdsadsa</p>
+                <ul>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                    <li><p>asd</p></li>
+                </ul>
+            </div>
+        </div>
+        <hr id="hr">
+    </div>
+    <div id="footer">
+
+        <img src="img/address.gif" alt="">
+    </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<center>
+    <img src="img_ex_rubato_company.png" alt="" id="test">
+</center>
+</body>
+</html>

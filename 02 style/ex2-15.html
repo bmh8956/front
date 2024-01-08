@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>가상클래스</title>
+  <style type="text/css">
+    a {
+      color: dodgerblue;
+      /* 링크에 밑줄이 없도록 설정 */
+      text-decoration: none;
+
+    }
+
+    a:hover {
+      /* 마우스를 올렸을때 */
+      color: red;
+    }
+
+    a:active {
+      /* 마우스를 클릭하고 있을때 */
+      color: goldenrod;
+    }
+
+    a:visited {
+      /* 방문한 사이트 */
+      color: yellowgreen;
+    }
+
+    .d1 {
+      background-color: aqua;
+      width: 100px;
+      height: 50px;
+      margin: 20px;
+      border-radius: 20px;
+      /* 4모서리를 반지름 20px 기준으로 원을 그려서 둥글게 만듬 */
+
+    }
+
+    .d1:hover {
+      background-color: greenyellow;
+      width: 120px;
+      height: 55px;
+      margin: 20px;
+    }
+
+
+    .d2 {
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      color: aliceblue;
+      font-weight: bolder;
+      /* 글자의 굵기 */
+      font-size: 20px;
+      margin: 10px;
+
+
+      float: left;
+
+      /* 왼쪽을 기준으로 정렬 */
+
+
+      /* div 박스에서 글자를 중앙에 정렬 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .clear {
+      clear: both;
+      /* float 속성을 제거함 */
+    }
+
+    .container {
+      width : 50%; 
+      margin : 0 auto ; 
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="#">COMPANY</a></li>
+    <li><a href="#">PRODUCT</a></li>
+    <li><a href="#">SERVICE</a></li>
+    <li><a href="#">CUSTOMER</a></li>
+    <li><a href="#">COMMUNITY</a></li>
+  </ul>
+
+  <h2> 마우스를 올렸을때 스타일 적용 </h2>
+  <hr>
+  <div class="d1"> </div>
+
+  <div class="d1"> </div>
+
+  <div class="d1"> </div>
+
+  <hr>
+  <h2> border-radius 속성을 사용해서 정원 그리기 </h2>
+  <hr>
+
+  <div class="container">
+    <div class="d2"> 글자넣기1 </div>
+    <div class="d2"> 글자넣기2 </div>
+    <div class="d2"> 글자넣기3 </div>
+    <div class="d2"> 글자넣기4 </div>
+
+    <div class="clear"></div>
+
+    <div class="d2"> 글자넣기5 </div>
+    <div class="d2"> 글자넣기6 </div>
+    <div class="d2"> 글자넣기7 </div>
+    <div class="d2"> 글자넣기8 </div>
+  </div>
+</body>
+
+</html>

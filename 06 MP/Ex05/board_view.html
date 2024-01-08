@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="wrap">
+    <div id="content">
+        <header>
+
+        </header>
+        <div class="clear"></div>
+        <aside>
+
+        </aside>
+        <main>
+<!--            <div id="main_view">-->
+<!--                <h4>자유 게시판</h4>-->
+<!--                <div>-->
+<!--                    <div id="view_title">-->
+<!--                        <span style="float: left">-->
+<!--                            게시판 제목 게시판 제목 게시판 제목-->
+<!--                        </span>-->
+<!--                        <span id="view_right">-->
+<!--                            작성자 | 조회수 : 144 | 2024-01-07-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                    <div id="view_content">-->
+<!--                        <p>게시판 내용</p>-->
+<!--                        <p>게시판 내용</p>-->
+<!--                        <p>게시판 내용</p>-->
+<!--                        <p>게시판 내용</p>-->
+<!--                    </div>-->
+<!--                    <div id="view_comment">-->
+<!--                        <img src="img/title_comment.gif" width="90" style="float: left"/>-->
+<!--                        <textarea style="float: none"></textarea>-->
+<!--                        <img src="img/ok_ripple.gif" style="float: right"/>-->
+<!--                    </div>-->
+<!--                    <div id="view_btn" class="right">-->
+<!--                        <img src="img/delete.png">-->
+<!--                        <img src="img/list.png">-->
+<!--                        <img src="img/write.png">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+        </main>
+        <div class="clear"></div>
+        <hr>
+        <footer>
+
+        </footer>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <div id="result">
+                    <img src="MP02_3_board_view.html.png">
+                </div>
+    </div>
+</div>
+<script src="html.js" defer></script>
+<script>
+
+    window.onload = () => {
+        const PAGE = 'view';
+        document.querySelector('header').innerHTML = header(PAGE)
+        document.querySelector('aside').innerHTML = aside(PAGE)
+        document.querySelector('footer').innerHTML = footer(PAGE)
+        main(PAGE)
+    }
+</script>
+</body>
+</html>

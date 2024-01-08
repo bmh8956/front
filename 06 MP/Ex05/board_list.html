@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="wrap">
+    <div id="content">
+        <header>
+
+        </header>
+        <div class="clear"></div>
+        <aside>
+
+        </aside>
+        <main>
+
+        </main>
+        <div class="clear"></div>
+        <hr>
+        <footer>
+
+        </footer>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div id="result">
+            <img src="MP02_2_board_list.html.png">
+        </div>
+    </div>
+</div>
+<script src="html.js" defer></script>
+<script>
+    async function insert() {
+        const PAGE = 'list';
+        document.querySelector('header').innerHTML = header(PAGE)
+        document.querySelector('aside').innerHTML = aside(PAGE)
+        document.querySelector('footer').innerHTML = footer(PAGE)
+        main(PAGE)
+    }
+
+    window.onload = () => {
+        insert();
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 95%;
+    height: 950px;
+}
+
+header, footer {
+    height: 100px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    height: 650px;
+}
+
+main {
+    margin-left: 20%;
+    width: 77%;
+    height: 650px;
+    padding-left: 3%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo {
+    float: left;
+    width: 20%;
+    height: 100px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+#header_menu {
+    padding-top: 30px;
+    padding-left: 20%;
+    width: 80%;
+}
+
+#header_menu #main_menu {
+    width: 97%;
+    height: 4vh;
+    background-image: url("img/main_menu_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    line-height: 4vh;
+    text-align: center;
+    margin-left: 3%;
+}
+
+#header_menu > p {
+    text-align: right;
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-right: 5%;
+}
+
+#main_menu div {
+    float: left;
+    width: 20%;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+#login, #guestbook {
+    height: 18%;
+    border: 1px solid #c2c2c2;
+    border-radius: 15px;
+}
+
+#login {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+
+#login_img {
+    width: 100%;
+    height: 12%;
+    background: url("img/ttl_login.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+#login_input {
+    margin: 5px;
+    width: 100%;
+    height: 40%;
+}
+
+#login_input_area {
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+
+#login_input_area input {
+    width: 100%;
+    height: 35%;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+}
+
+#login_btn_area {
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+#login_btn_area input {
+    width: 90%;
+    height: 100%;
+    background: url("img/btn_login.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    margin-top: 3px;
+}
+
+#login_d1 {
+    font-size: 9px;
+    height: 30%;
+    margin-top: 10px;
+}
+
+#login_d1 span {
+    font-size: 9px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+#login_d1 #join {
+    margin-left: 10px;
+    margin-right: 5px;
+    font-weight: 800;
+}
+
+#guestbook {
+    background-color: #eeeeee;
+}
+
+#gu_title {
+    height: 20%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#gu_title img {
+    height: 90%;
+}
+
+#guestbook hr {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#gu_list ul {
+    color: #4eb2b2;
+    margin-left: 30px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#gu_list ul span {
+    color: black;
+}
+
+#main_img {
+    height: 35%;
+    width: 100%;
+    background: url("img/main_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#list {
+    width: 49%;
+    height: 50%;
+    float: left;
+}
+
+#vid {
+    width: 49%;
+    height: 50%;
+    padding-left: 51%;
+}
+
+.list_cont {
+    padding-top: 3%;
+}
+
+#list01, #list02 {
+    height: 50%;
+    width: 100%;
+}
+
+#list01 {
+    padding-bottom: 5%;
+}
+
+.list_title {
+    height: 10%;
+}
+
+.list_title * {
+    /*height: 100%;*/
+}
+
+#main_cont {
+    height: 65%;
+    width: 100%;
+}
+
+#main_cont .more {
+    float: right;
+    height: 2vh;
+    link: 'asd';
+}
+
+.li_img {
+    float: left;
+    width: 30%;
+}
+
+.li_li {
+    font-size: 10px;
+    width: 70%;
+    padding-left: 35%;
+}
+
+#list ul {
+    list-style: none;
+    width: 100%;
+}
+
+#list li {
+    width: 100%;
+
+}
+
+#list .li_cont {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60%;
+    padding-top: 1%;
+}
+
+.date {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 35%;
+}
+
+#main_cont hr {
+    margin-top: 10px;
+}
+
+#vid_title {
+    height: 5%;
+}
+
+#vid #video {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#vid #video img {
+    margin: 0 auto;
+    padding: 3%;
+    width: 80%;
+    height: 80%;
+}
+
+#bottom {
+    padding-top: 3%;
+    height: 50%;
+}
+
+#bt_cont {
+    margin-top: 2%;
+    height: 70%;
+    border: 1px solid #cbc9c9;
+    border-radius: 15px;
+}
+
+.bt_img {
+    width: 32%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.bt_img img {
+    padding-top: 15%;
+    width: 80%;
+    height: 60%;
+}
+
+.bt_img div {
+    font-size: 10px;
+}
+
+#content > hr {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+#ft_logo {
+    float: left;
+    padding-left: 12%;
+    width: 20%;
+    height: 100%;
+}
+
+#addr {
+    display: inline-block;
+    width: 45%;
+    padding-left: 10%;
+    text-align: left;
+    padding-top: 1%;
+}
+
+.icon {
+    /*width: 20%;*/
+    /*text-align: right;*/
+    /*height: 70%;*/
+    position: absolute;
+    /*top: 820px;*/
+    /*right: 400px;*/
+    width: 20%;
+    /*text-align: right;*/
+    height: 100%;
+    /*top: 90%;*/
+    padding-top: 1%;
+}
+
+#ft {
+    margin-left: 10%;
+    width: 90%;
+    height: 70%;
+    position: relative;
+}
+
+#result img {
+    margin: 0 auto;
+}
+
+#sub_menu {
+    background: url("img/sub_menu_bg.png");
+    width: 100%;
+    height: 45%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sub_menu_text {
+    font-size: 75%;
+    padding-top: 50%;
+    padding-left: 15%;
+}
+
+#sub_menu_text p {
+    padding-bottom: 5%;
+}
+
+#sub_menu2 {
+    width: 100%;
+    height: 20%;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+
+#sub_menu2_img {
+    width: 90%;
+    height: 95%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+#sub_menu2 img{
+    width: 100%;
+    height: 30%;
+    /*padding-left: 5%;*/
+}
+
+#main_write {
+    height: 56%;
+}
+
+#main_write div{
+    width: 100%;
+    height: 100%;
+}
+
+#main_write div h3{
+    width: 100%;
+    height: 8%;
+}
+
+#main_write div div{
+    width: 100%;
+    height: 92%;
+}
+
+#main_write div div form{
+    width: 100%;
+    height: 100%;
+}
+
+#board_write {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #c9c9c9;
+    border-collapse: collapse;
+}
+
+#board_write td {
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 12px;
+}
+
+.board_th {
+    text-align: center;
+    border-right: 1px solid #c9c9c9;
+}
+
+#board_write td *{
+    margin-left: 3%;
+    text-align: left;
+}
+
+#board_write td #title{
+    width: 100%;
+}
+
+#board_write th {
+    background-color: rgba(199, 199, 199, 0.16);
+}
+
+#board_btn {
+    text-align: right;
+    margin: 2%;
+    height: 5%;
+}
+
+#board_write textarea {
+    width: 100%;
+    height: 90%;
+}
+
+#main_list {
+    width: 100%;
+    height: 30%;
+}
+
+#search {
+    width: 100%;
+    height: 10%;
+}
+
+#list_div {
+    width: 100%;
+    height: 60%;
+}
+
+#search span{
+    font-size: 12px;
+}
+
+#list_table {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #c9c9c9;
+    border-collapse: collapse;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#list_table td {
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 12px;
+}
+
+#list_table th {
+    background-color: rgba(199, 199, 199, 0.16);
+    font-size: 80%;
+}
+
+.left {
+    text-align: left;
+}
+
+#list_btn {
+    text-align: center;
+    padding-top: 1%;
+}
+
+#list_btn #pagination {
+    margin-left: 10%;
+    font-size: 11px;
+    margin-top: 2%;
+}
+
+#list_btn #list_button {
+    float: right;
+    padding-top: 2%;
+}
+#main_list > div {
+    width: 100%;
+    height: 100%;
+}
+
+#main_list div h4{
+    width: 100%;
+    height: 15%;
+}
+
+#main_view {
+    width: 100%;
+    height: 60%;
+}
+
+#main_view > div {
+    width: 100%;
+    height: 90%;
+}
+
+#view_title {
+    margin-top: 3%;
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid black;
+    background-color:  rgba(199, 199, 199, 0.16);
+}
+
+#view_title span {
+    /*margin: 0 auto;*/
+    font-size: 12px;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+#view_right {
+    float: right;
+}
+
+#view_content {
+    padding-top: 3%;
+}
+
+#view_comment {
+    height: 30%;
+    border-top: 1px solid #c5c5c5;
+    margin-top: 5%;
+    background-color:  rgba(199, 199, 199, 0.16);
+}
+
+#view_comment *{
+    margin: 2%;
+}
+
+#view_comment textarea {
+    height: 80%;
+    width: 61%;
+}
+
+#view_btn {
+    padding-top: 3%;
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+

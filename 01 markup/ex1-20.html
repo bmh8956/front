@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>표</title>
+    <style>
+        table{
+            width: 60%;
+            border-collapse: collapse;
+
+            /* 중앙 정렬*/
+            margin : 0 auto ; 
+        }
+        td,th{
+            border: 1px solid #000;
+            /* padding : border 에서 글 내용 까지의 간격 */ 
+            padding : 20px ; 
+        }
+
+        .n1 {
+            background-color: rgb(181, 239, 181);
+        }
+
+    </style>
+</head>
+<body>   
+    <table>
+       <thead>
+             <tr>            
+                <th class = "n1">교과목</th>
+                <th  class = "n1">점수</th>          
+            </tr>
+        </thead>
+        <tbody>
+            <tr>          
+                <th class = "n1">HTML</th>
+                <td>93</td>                
+            </tr>
+            <tr>          
+                <th  class = "n1">CSS</th>
+                <td>92</td>         
+            </tr>
+        </tbody> 
+        <tfoot>
+            <tr>           
+                <th  class = "n1">평균</th>
+                <td>92.5</td>          
+            </tr>
+        </tfoot>       
+    </table>
+
+
+    <div class = "n1"> 클래스 속성 </div>
+</body>
+</html>

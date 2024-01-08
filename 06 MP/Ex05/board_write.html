@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="wrap">
+    <div id="content">
+        <header>
+
+        </header>
+        <div class="clear"></div>
+        <aside>
+            <!--            <div id="sub_menu">-->
+            <!--                <div id="sub_menu_text">-->
+            <!--                    <p>+ 자유 게시판</p>-->
+            <!--                    <p>+ 방명록</p>-->
+            <!--                    <p>+ 공지사항</p>-->
+            <!--                    <p>+ 등업요청</p>-->
+            <!--                    <p>+ 포토갤러리</p>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--            <div id="sub_menu2">-->
+            <!--                <div id="sub_menu2_img">-->
+            <!--                    <img src="img/banner1.png"/>-->
+            <!--                    <img src="img/banner2.png"/>-->
+            <!--                    <img src="img/banner3.png"/>-->
+            <!--                </div>-->
+            <!--            </div>-->
+        </aside>
+        <main>
+
+        </main>
+        <div class="clear"></div>
+        <hr>
+        <footer>
+
+        </footer>
+<!--        <br>-->
+<!--        <br>-->
+<!--        <hr>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <div id="result">-->
+<!--            <img src="MP02_4_board_write.html.png">-->
+<!--        </div>-->
+    </div>
+</div>
+<script src="html.js" defer></script>
+<script>
+
+    window.onload = () => {
+        const PAGE = 'write';
+        document.querySelector('header').innerHTML = header(PAGE)
+        document.querySelector('aside').innerHTML = aside(PAGE)
+        // document.querySelector('aside').insertAdjacentHTML('afterbegin', aside(PAGE))
+        document.querySelector('footer').innerHTML = footer(PAGE)
+        main(PAGE)
+    }
+</script>
+</body>
+</html>
